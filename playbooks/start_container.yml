@@ -3,7 +3,6 @@
     name: api-gateway
     image: docker.io/springcommunity/spring-petclinic-api-gateway:latest
     state: started
-    recreate: true
     detach: true
     privileged: true
     network:
